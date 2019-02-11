@@ -1,0 +1,28 @@
+@media only screen and (max-width:720px) {
+  .float-left {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  .main1 {
+  	width: 100%;
+  }
+
+  .main1 .main2, .main3, .main4, .main5{
+  	padding-left: 15px;
+  	padding-right: 15px;
+  }
+
+  .w-25 {
+  	width: 50%;
+  }
+
+  .w-25-2 {
+  	width: 50%;
+  	padding-top: 0px;
+  }
+
+ /* .main5 {
+  	padding-top: 38px;
+  	padding-left: 15px;
+  	padding-right: 15px;
+  }*/
+}
