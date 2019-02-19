@@ -6,22 +6,27 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+	<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script src="jquery-3.3.1.js" type="text/javascript"></script>
+	<script type="text/javascript" src="slick.js"></script>
 	<script src="script.js"></script>
+	 -->
+
 </head>
 
 <body class="column">
 	<div class="part1 ">
 		<div class="left column float-left position-relative">
 			<div class="name position-relative">
-        		<span class="position-relative font-weight">
-        			 <span class="line-under-name">BUMBLEBEE</span> <span class="font-size-40">WALKER</span><br>
+        		<div class="position-relative">
+        			 <span class="line-under-name">BUMBLEBEE<span class="font-size-40"> WALKER</span></span><br>
         			 <span class="font-size-20">Ruby on Rail Developer
         			 </span>
-        		</span>
+        		</div>
             </div>
             <botton class="corner-bottom position-absolute">
 				<i class="fas fa-camera"></i>
@@ -83,7 +88,7 @@
     		<h4>
     			 <span class="line-under">PROFESSIONAL
     			 </span>
-    			 <span class="line-top">SUMMARY
+    			 <span class="line-top border-top-red">SUMMARY
     			 </span>
     		</h4>
 		<div class="summary">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dol. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dol
@@ -231,9 +236,9 @@
 		<div class="professionnal-skills float-left column">
 			<div>
     			<span>
-    			 <span class="line-under"">WORK
+    			 <span class="line-under-white">WORK
     			 </span>
-    			 <span class="line-top">EXPERIENCE
+    			 <span class="line-top-white">EXPERIENCE
     			 </span>
     			</span>
 			</div>
@@ -328,12 +333,10 @@
 
 		<div class="professionnal-skills float-left">
 			<div>
-    			<span>
-    			 <span class="line-under font-weight1">EDUCATION
+    			 <span class="line-under-white2">EDUC<span class="line-top-white">ATION
     			 </span>
-    			 <span class="line-top font-weight1">
     			 </span>
-    			</span>
+    			 
 			</div>
 			<div class="summary">
 				Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
@@ -429,10 +432,10 @@
 		<!-- <div class="professionnal-skills"> -->
 		<div>
 			<!-- <span> -->
-			 <span class="line-under">PORT 
+			 <span class="line-under-red">PORT<span class="line-top font-weight1">FOLIO
 			 </span>
-			 <span class="line-top font-weight1">FOLIO
 			 </span>
+			 
 			<!-- </span> -->
 			<!-- </div> -->
 		<div class="navbar">
@@ -445,7 +448,7 @@
 		</div>
 
 		<div class="main4-cnt">
-			<div class="w-25">
+			<div class="w-25" id="col1">
 				<div class="featured" id="backgroud-orange">
 					<img src="1111.png">
 				</div>
@@ -454,12 +457,12 @@
 				</div>
 			</div>
 
-			<div class="w-25">
+			<div class="w-25" id="col2">
 				<div class="featured2" id="backgroud-yellow">
 					<img src="2222.png">
 				</div>
 			</div>
-			<div class="w-25-2">
+			<div class="w-25-2" id="col3">
 				<div class="featured" id="backgroud-blue">
 					<img src="1111.png">
 				</div>
@@ -467,7 +470,7 @@
 					<img src="2222.png">
 				</div>
 			</div>
-			<div class="w-25-2">
+			<div class="w-25-2" id="col4">
 				<div class="featured" id="backgroud-red">
 					<img src="1111.png">
 				</div>
@@ -488,42 +491,47 @@
 
 	<div class="main5">
 			<span>
-			 <span class="line-under font-weight1">refereces
+			 <span class="line-under font-weight1">refe
 			 </span>
-			 <span class="line-top font-weight1">
+			 <span class="line-top font-weight1">reces
 			 </span>
 			</span>
+				<div class="slideslick">
 
-			<div class="row">
-				<div class="padding-top-86 padding-left-80">
-					<i class="fas fa-angle-left"></i>
-				</div>
-				<div>
-					<div class="avatar-girl">
-						
+					<div class="flex-row">
+						<div>
+						<div class="avatar-girl">
+						</div>
+					</div>
+	
+					<div class="padding-left-35 padding-top-86 text-align-justify">❝Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in❞
+					</div>
+					</div>
+
+					<div class="flex-row">
+						<div>
+						<div class="avatar-girl">
+						</div>
+					</div>
+	
+					<div class="padding-left-35 padding-top-86 text-align-justify" id="abc">❝Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in❞
+					</div>
 					</div>
 				</div>
-				<div class="padding-left-35 padding-top-86 text-align-justify">❝Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in❞
-				</div>
-
-				<div class="padding-top-86 padding-left-35">
-					<i class="fas fa-angle-right"></i>
-				</div>
-			</div>
-
-			<div class="featured padding-top-53">
-				<div>
-					<i class="far fa-circle"></i>
-					<i class="fas fa-circle"></i>
-					<i class="fas fa-circle"></i>
-				</div>
-			</div>
 
 			<div class="featured padding-top-20">
-				<button class="Add-project" style="background: #2F2FA1">Add references
+				<button class="Add-project" id="add-slide" style="background: #2F2FA1">Add references
 					<i class="fas fa-plus"></i>
 				</button>
 			</div>
+		        
+	</div>
+					
+			
+			
+
+
+			
 	</div>
 	<!-- end the main5 -reference -->
 	<!-- begin the footer -->
@@ -531,5 +539,10 @@
 		2019 Flatos.com All right reserved.
 	</div>
 
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+  	<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+	<script src="script.js"></script>
+	<!-- <script type="text/javascript" src="jquery-3.3.1.min.js"></script> -->
 </body>
 </html>
