@@ -2,11 +2,20 @@
   .float-left {
     width:100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
+
+  .left {
+  		width: 100%!important;
+        height: 175px;
+        background-size: cover;
+        background-position: center;
+  }
   .main1 {
   	width: 100%;
+  	padding-left: 15px;
+  	padding-right: 15px;
   }
 
-  .main1 .main2, .main3, .main4, .main5{
+  .main2, .main3, .main4, .main5{
   	padding-left: 15px;
   	padding-right: 15px;
   }
@@ -20,9 +29,29 @@
   	padding-top: 0px;
   }
 
+
  /* .main5 {
   	padding-top: 38px;
   	padding-left: 15px;
   	padding-right: 15px;
   }*/
+}
+
+@media only screen and (max-width: 720px) {
+.flex-row {
+  	display: flex;
+  	flex-direction: column;
+  	align-self: center;
+  	margin: auto;
+  }
+
+.avatar-girl {
+	justify-content: center;
+	margin: auto;
+}
+
+.padding-top-86 {
+	padding-top: 30px;
+}
+
 }
